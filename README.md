@@ -26,6 +26,7 @@ We will update this README with answers to common questions.
 - 会引发生命周期错误的所有代码（如悬垂引用），和与生命周期的特性相关的语法（如生命周期注解），我们不要求任何生命周期检查。
 - 我们对 `Identifiers` 做如下简化：标识符的第一个字符必须为英语字母，第二个字符开始可以是英语字母、数字或者下划线。标识符区分大小写并且长度超过 $64$ 个字符的标识符是未定义的。
 - 我们对 `float literals` 做如下简化：不要求 `FLOAT_EXPONENT` 的实现。
+- 我们对 `Comments` 做如下简化：只需要考虑 C++ 风格的两种非文档注释（Non-doc comments）。
 
 *以上部分内容与 Spec 仓库的要求冲突，冲突部分请以此文档为准，我们会逐步删减和更新 Spec 仓库。*
 
